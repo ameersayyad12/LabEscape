@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧪 LabEscape
 
 > **Escape the academic bubble — find real-world research**
@@ -66,3 +67,15 @@ poetry run get-papers-list "machine learning in drug discovery"
 
 # Run Streamlit UI
 poetry run streamlit run streamlit_app.py
+=======
+# get-papers
+
+A Python CLI tool that fetches PubMed papers for a given query and filters results to only include papers with **at least one author affiliated with a non-academic (pharma/biotech) institution**.
+
+---
+
+## 📦 Setup
+
+```bash
+poetry install
+>>>>>>> f7488bf (🎉 Initial commit of LabEscape Streamlit app)
