@@ -24,7 +24,9 @@ LabEscape helps you filter PubMed results to find papers authored by **non-acade
 
 ## 📸 Demo
 
-![LabEscape Screenshot](assets/labescape-demo.png)
+<img width="1914" height="767" alt="Screenshot 2025-07-12 192359" src="https://github.com/user-attachments/assets/ac719657-5641-4915-8c8e-8722b0bbd1e6" />
+
+
 
 ---
 
@@ -47,24 +49,6 @@ LabEscape helps you filter PubMed results to find papers authored by **non-acade
 2. Parses returned article metadata (authors, affiliations)
 3. Filters out affiliations that contain keywords like `"university"`, `"college"`, `"hospital"`, etc.
 4. Returns only those with at least one **non-academic** author
-
----
-
-## 📂 Project Structure
-
-get_papers/
-│
-├── get_papers/
-│ ├── fetch.py # PubMed API logic
-│ ├── main.py # CLI Typer entrypoint
-│ ├── utils.py # Heuristic filters
-│
-├── streamlit_app.py # Web interface
-├── tests/ # Unit tests (pytest)
-├── pyproject.toml # Poetry project file
-├── README.md
-└── report.pdf # Summary of approach and output
-
 
 ---
 
